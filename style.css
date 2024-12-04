@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*Scrool doux pour les ancres sommaires*/
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #0B0C14;
+}
+h5{
+    font-family: monospace;
+    font-size: 2rem;
+}
+
+hr{
+    width: 80%;
+    margin: 0 auto;
+    border: none;
+    height: 1.15px;
+    background-color: rgb(56, 58, 75);
+}
+
+strong {
+    color: #6670E0;
+    text-shadow: 0 0 5px rgba(102, 112, 224, 0.4); 
+}
+.photo-profil{
+    padding-top: 120px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.photo-profil h3{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 4.5rem;
+    color: #E7E7E9;
+    margin-bottom: 3px;
+    text-shadow: 0 0 5px rgba(14, 14, 14, 0.7);
+}
+
+.photo-profil h4{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 5rem;
+    color: #E7E7E9;
+    margin-bottom: 12px;
+    text-shadow: 0 0 5px rgba(14, 14, 14, 0.7); 
+}
+
+.photo-profil p{
+    width: 70%;
+    text-align: center;
+    font-size: 1.1rem;
+    font-family: 'Courier New', Courier, monospace;
+    color: #98a3c0;
+    line-height: 27px;
+    margin: 0 auto;
+}
+
+.social{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.social img{
+    padding: 20px;
+    width: 50px;
+    height: auto;
+}
+
+h2{
+    margin-top: 40px;
+    margin-left: 10%;
+    text-align: start;
+    font-family: 'Helvetica Now Display', ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: bold;
+    font-size: 2.2rem;
+    color: #E7E7E9;
+    margin-bottom: 12px;
+    text-shadow: 0 0 5px rgba(14, 14, 14, 0.7); 
+}
