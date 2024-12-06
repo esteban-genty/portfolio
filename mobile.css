@@ -1,0 +1,21 @@
+@media (max-width:728px){
+    .nav-right{
+        display: none;
+    }
+    h5{
+        font-size: 1rem;
+    }
+    .photo-profil h3, .photo-profil h4{
+        font-size: 2rem;
+    }
+    .photo-profil p{
+        font-size: 1rem;
+    }
+    .projet{
+        
+    }
+    input[name="name"],input[name="objet"],input[type="email"]{
+        width: 100%;
+        margin: 20px;
+    }
+}

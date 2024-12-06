@@ -1,0 +1,47 @@
+/*Pied de page*/
+footer{
+    margin-top: 70px;
+    background-color: #0B0C14;
+    color: white;
+    width: 100%;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    bottom: 0;
+    position: relative;
+}
+.menu-link{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 20px;
+    padding-bottom: 20px;
+}
+.social-link{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 50px;
+    padding-bottom: 20px;
+}
+a{
+    color: #c0d3dd;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #c0d3dd;
+}
+
+img{
+    width: 50px;
+    height: auto;
+}
+a:hover{
+    color: white;
+}
