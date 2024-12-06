@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8"> <!-- Encodage Du Document -->
     <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- Affichage Mobile -->
-    <meta name="description" content="FanSite Laylow Actualité/Discographie"> <!-- Description de la page -->
-    <meta name="keywords" content="Laylow, Fansite, fan"> <!-- Mots Clés (Moteur de Recherche) -->
+    <meta name="description" content="Portfolio de Estéban Genty"> <!-- Description de la page -->
+    <meta name="keywords" content="Portfolio, Estéban Genty, Portfolio Devlopper"> <!-- Mots Clés (Moteur de Recherche) -->
     <meta name="author" content="Estéban Genty"> <!-- Auteur -->
     <title>Portfolio - Esteban Genty</title> <!-- Titre Du Site -->
     <link rel="stylesheet" href="style.css"><!--Style CSS-->
-    <link rel="stylesheet" href="header.css"><!--Header CSS-->
-    <link rel="stylesheet" href="footer.css">
-    <link rel="stylesheet" href="mobile.css">
+    <link rel="stylesheet" href="header.css"><!--Haut de page CSS-->
+    <link rel="stylesheet" href="footer.css"><!--CSS Pied de page-->
+    <link rel="stylesheet" href="mobile.css"><!--Css Version mobile-->
 </head>
 <body>
     <!--En-tête de page-->
@@ -28,10 +28,11 @@
         </nav>
     </header>
 
+    <!--Dvivder entre header et main-->
     <hr>
 
     <main>
-        <section class="photo-profil">
+        <section class="home">
                 <h3>Salut je suis <strong>Esteban,</strong></h3>
                 <h4>je suis étudiant en <strong>DEVELOPPEMENT</strong></h4>
                 <p>Je suis un étudiant passionné par le développement et je me forme pour devenir développeur WEB. À travers ce portfolio, je vous invite à découvrir mes travaux et projets réalisés dans le cadre de ma formation. Chaque projet reflète mon évolution et mon engagement envers l'apprentissage.</p>
@@ -85,21 +86,27 @@
                             <img src="images/html.png" alt="logo HTML">
                             <div>
                                 <h5>HTML 5</h5>
-                                <p>HTML 5 (2024-2025)</p>
+                                <div class="progress-bar-container">
+                                    <div class="progress-bar-html"></div> <!-- Modifier la largeur pour simuler la progression -->
+                                </div>
                             </div>
                         </div>
                         <div class="logo-contenue">
                             <img src="images/css.png" alt="logo CSS">
                             <div>
                                 <h5>CSS 3</h5>
-                                <p>CSS3 (2024-2025)</p>
+                                <div class="progress-bar-container-css">
+                                    <div class="progress-bar-css"></div> <!-- Modifier la largeur pour simuler la progression -->
+                                </div>
                             </div>
                         </div>
                         <div class="logo-contenue">
                             <img src="images/python.png" alt="logo python">
                             <div>
                                 <h5>Python</h5>
-                                <p>Python (2024-2025)</p>
+                                <div class="progress-bar-container">
+                                    <div class="progress-bar-python"></div> <!-- Modifier la largeur pour simuler la progression -->
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -111,8 +118,8 @@
                         <div class="logo-contenue">
                             <img src="images/photo-profil.png" alt="Photo de profil github">
                             <div>
-                                <h5>Estéban Genty</h5>
-                                <p>Compte Github</p>
+                                <h5>Compte Github</h5>
+                                <p>Estéban Genty</p>
                             </div>
                         </div>
                         </a>
@@ -120,8 +127,8 @@
                         <div class="logo-contenue">
                             <img src="images/photo-profil-linkedin.png" alt="Photo de profil linkedin">
                             <div>
-                                <h5>Estéban Genty</h5>
-                                <p>Compte Linkedin</p>
+                                <h5>Compte Linkedin</h5>
+                                <p>Estéban Genty</p>
                             </div>
                         </div>
                         </a>
@@ -131,8 +138,9 @@
         </section>
 
         <h2 id="section-3">Portfolio</h2>
+
         <section class="presentation">
-            <a href="https://github.com/esteban-genty">
+            <a href="https://github.com/esteban-genty/RunTrack-HTML-CSS/tree/main/FanSite">
             <article>
                 <img src="images/tic-tac-toe.png" alt="Projet TicTacToe">
                 <h5>TicTacToe</h5>
@@ -141,12 +149,12 @@
             </a>
             <a href="https://github.com/esteban-genty">
             <article>
-                <img src="images/fansite screen.png" alt="Projet TicTacToe">
+                <img src="images/fansite screen.png" alt="https://github.com/esteban-genty/TicTacToe">
                 <h5>FanSite</h5>
                 <p>Ce site est dédié à l'univers fascinant de Laylow, un artiste unique qui s'impose dans le monde de la musique.</p>
             </article>
             </a>
-            <a href="https://github.com/esteban-genty">
+            <a href="https://github.com/esteban-genty/RunTrack-HTML-CSS/tree/main/Bloom%20Petals">
             <article>
                 <img src="images/bloompetals screen.png" alt="Projet TicTacToe">
                 <h5>BloomPetals</h5>
@@ -156,6 +164,7 @@
         </section>
 
         <h2 id="section-4">Me Contacter</h2>
+
         <section class="form-contact">
             <form action="#" method="post"> 
                 <!-- Champ Nom & Prénom -->
@@ -195,5 +204,4 @@
             </ul>
             <p>Portfolio créer par Estéban</p>
         </footer>
-
 </body>
