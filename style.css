@@ -266,8 +266,8 @@ input[name="name"]{
 }
 
 input[name="objet"]{
-    margin-left: 20px;
-    width: 48.6%;
+    margin-bottom: 20px;
+    width: 49.5%;
     padding: 25px;
     border-radius: 4px;
     box-sizing: border-box;
@@ -279,7 +279,7 @@ input[name="objet"]{
 
 input[type="email"]{
     margin-bottom: 20px;
-    width: 48.6%;
+    width: 49.5%;
     padding: 25px;
     border-radius: 4px;
     box-sizing: border-box;
