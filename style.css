@@ -268,7 +268,7 @@ input[type=submit]{
     font-size: 1.4rem; 
     cursor: pointer;
     border: none;
-    transition: 400ms ease;
+    transition: 200ms ease;
 }
 
 input[type=submit]:hover{

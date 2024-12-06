@@ -6,16 +6,42 @@
         font-size: 1rem;
     }
     .photo-profil h3, .photo-profil h4{
-        font-size: 2rem;
+        font-size: 2.5rem;
     }
     .photo-profil p{
         font-size: 1rem;
+        width: 100%;
+        margin-left: 10px;
     }
     .projet{
-        
+        display: flex;
+        margin-left: 10%;
+        flex-direction: column;
+        flex-wrap: wrap;
     }
-    input[name="name"],input[name="objet"],input[type="email"]{
+    .gauche{
         width: 100%;
+    }
+    .droit{
+        width: 100%;
+    }
+    .presentation{
+        display: flex;
+        flex-direction: column;
+    }
+    .presentation a{
+        width: 100%;
+    }
+    #section-3{
+        margin-top: 200px;
+    }
+    .form-contact{
+        width: 100%;
+        padding: 0;
+        height: 700px;
+    }
+    input[name="name"],input[name="objet"],input[type="email"], textarea[name="subject"], input[type=submit]{
+        width: 80%;
         margin: 20px;
     }
 }
