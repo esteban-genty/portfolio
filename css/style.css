@@ -31,15 +31,6 @@ a{
     color: var(--black-color);
 }
 
-
-hr{
-    width: 80%;
-    margin: 0 auto;
-    border: none;
-    height: 1.15px;
-    background-color: var(--black-color);
-}
-
 /*Section Accueil*/
 .accueil{
     align-items: center;
@@ -47,7 +38,7 @@ hr{
     justify-content: center;
     flex-direction: row;
     gap: 340px;
-    margin-top: 100px;
+    margin-top: 150px;
 }
 
 .accueil p{
@@ -130,13 +121,72 @@ hr{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     margin-top: 200px;
+    padding-bottom: 80px;
     background-color: var(--secondary-bg-body);
-    height: 200px;
 }
 
 .a-propos h2{
+    margin-top: 50px;
     font-size: 2.5rem;
     font-family: Arial, Helvetica, sans-serif;
     color: var(--black-color);
+}
+
+.intro{
+    width: 100%;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.intro img{
+    margin-top: 100px;
+    width: 450px;
+    height: auto;
+}
+
+.portfolio-photos{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+
+}
+
+.portfolio-photos{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    height: 465px;
+}
+
+.competences{
+    padding: 10px;
+    width: 400px;
+    height: 100px;
+    gap: 15px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    flex-direction: row;
+    background-color: var(--black-color);
+    color: var(--bg-body);
+}
+
+.competences img{
+    width: 55px;
+    height: auto;
+    margin: 0;
+}
+
+
+.competences div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    font-family: var(--main-font);
 }
