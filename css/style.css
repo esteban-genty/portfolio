@@ -18,11 +18,19 @@ body{
     --black-color: rgb(37, 36, 34);
     --secondary-color: #b29d75;
     --bg-body: rgb(247, 241, 230);
+    --secondary-bg-body: rgb(236, 224, 202);
 }
 
+/*CSS Générale*/
 strong{
     color: var(--secondary-color);
 }
+
+a{
+    text-decoration: none;
+    color: var(--black-color);
+}
+
 
 hr{
     width: 80%;
@@ -32,6 +40,7 @@ hr{
     background-color: var(--black-color);
 }
 
+/*Section Accueil*/
 .accueil{
     align-items: center;
     display: flex;
@@ -47,7 +56,18 @@ hr{
     font-size: 1.2rem;
 }
 
-.accueil button{
+
+/*Bouton Accueil*/
+.button{
+    display: flex;
+    flex-direction: row;
+}
+
+#linkedin{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
     width: 130px;
     height: 37px;
     margin-right: 20px;
@@ -60,6 +80,37 @@ hr{
     cursor: pointer;
 }
 
+#linkedin svg {
+    width: 20px;
+    height: 20px;
+    fill: var(--bg-body);
+}
+
+
+#github{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    width: 130px;
+    height: 37px;
+    margin-right: 20px;
+    border: none;
+    background-color: var(--black-color);
+    color: var(--bg-body);
+    font-size: 1rem;
+    border-radius: 15px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+#github svg{
+    width: 20px;
+    height: 20px;
+    fill: var(--bg-body);
+}
+
+/*Accueil Titre*/
 .accueil h3{
     font-size: 60px;
     font-family: Arial, Helvetica, sans-serif;
@@ -71,4 +122,21 @@ hr{
     font-family: Arial, Helvetica, sans-serif;
     color: var(--black-color);
     margin-bottom: 20px;
+}
+
+/*Section A Propos*/
+
+.a-propos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+    background-color: var(--secondary-bg-body);
+    height: 200px;
+}
+
+.a-propos h2{
+    font-size: 2.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--black-color);
 }
