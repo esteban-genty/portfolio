@@ -20,7 +20,7 @@
                 <a href="index.html"><h5>Esteban</h5></a>
             </div>
             <ul class="nav-right">
-                <li><a href="index.html">Accueil</a></li>
+                <li><a href="#accueil">Accueil</a></li>
                 <li><a href="#a-propos">À Propos</a></li>
                 <li><a href="#experiences">Mes expériences</a></li>
                 <li><a href="#projets">Mes Projets</a></li>
@@ -32,7 +32,7 @@
     <main>
 
         <!-- Section Accueil -->
-        <section class="accueil">
+        <section class="accueil" id="accueil">
 
             <div class="presentation">
                 <h3>Bonjour,</h3>
@@ -67,51 +67,166 @@
             
         </section>
 
- <!-- Section À Propos -->
-<section class="a-propos" id="a-propos">
-    <h2>À Propos</h2>
-    
-    <div class="intro">
-        <figure>
-            <img src="img/image-portfolio2.png" alt="Photo d'Esteban Dehors">
-        </figure>
-        
-        <article class="portfolio-photos">
-            <!-- Compétence Frontend -->
-            <div class="competences">
+        <!-- Section À Propos -->
+        <section class="a-propos" id="a-propos">
+            <h2>À Propos</h2>
+            
+            <div class="intro">
                 <figure>
-                    <img src="img/front-end.png" alt="Photo de Esteban Genty">
+                    <img src="img/image-portfolio2.png" alt="Photo d'Esteban Dehors">
                 </figure>
-                <div>
-                    <h3>Développeur Frontend</h3>
-                    <p>Languages : HTML, CSS, JavaScript</p>
-                </div>
-            </div>
 
-            <!-- Compétence Backend -->
-            <div class="competences">
-                <figure>
-                    <img src="img/backend.png" alt="Photo de Esteban Genty">
-                </figure>
-                <div>
-                    <h3>Développeur Backend</h3>
-                    <p>Languages : PHP, MySQL</p>
-                </div>
-            </div>
+                <article class="portfolio-photos">
+                    <!-- Compétence Frontend -->
+                    <div class="profil">
+                        <figure>
+                            <img src="img/front-end.png" alt="Photo de Esteban Genty">
+                        </figure>
+                        <div>
+                            <h3>Développeur Frontend</h3>
+                            <p>Je développe mes compétences en front-end à La Plateforme.</p>
+                        </div>
+                    </div>
 
-            <!-- Outils utilisés -->
-            <div class="competences">
-                <figure>
-                    <img src="img/outils.png" alt="Photo de Esteban Genty">
-                </figure>
-                <div>
-                    <h3>Outils Utilisés</h3>
-                    <p>Outils : VS Code, Figma, Github</p>
-                </div>
+                    <!-- Compétence Backend -->
+                    <div class="profil">
+                        <figure>
+                            <img src="img/backend.png" alt="Photo de Esteban Genty">
+                        </figure>
+                        <div>
+                            <h3>Développeur Backend</h3>
+                            <p>Je me forme au développement back-end à La Plateforme.</p>
+                        </div>
+                    </div>
+
+                    <!-- Outils utilisés -->
+                    <div class="profil">
+                        <figure>
+                            <img src="img/outils.png" alt="Photo de Esteban Genty">
+                        </figure>
+                        <div>
+                            <h3>Passioné par le Graphisme</h3>
+                            <p>Le graphisme est une passion qui me pousse à créer sans cesse.</p>
+                        </div>
+                    </div>
+                </article>
             </div>
-        </article>
-    </div>
-</section>
+        </section>
+
+        <!--Section Expériences-->
+        <h2 id="titre">Mes expériences</h2>
+        <section class="experiences" id="experiences">
+
+            <article class="experiences-gauche">
+
+                <div class="actuel">
+                    <h3>Actuel</h3>
+                    <div>
+                        <figure>
+                            <img src="img/html.png" alt="Image HTML 5">
+                            <figcaption>HTML 5</figcaption>
+                        </figure>
+                        <figure>
+                            <img src="img/css.png" alt="Image CSS 3">
+                            <figcaption>CSS 3</figcaption>
+                        </figure>
+                        <figure>
+                            <img src="img/javascript.png" alt="Image javascript">
+                            <figcaption>JavaScript</figcaption>
+                        </figure>
+                    </div>
+                    <div>
+                        <figure>
+                            <img src="img/php.png" alt="Image PHP 8">
+                            <figcaption>PHP 8</figcaption>
+                        </figure>
+                        <figure>
+                            <img src="img/mysql.png" alt="Image MySQL">
+                            <figcaption>MySQL</figcaption>
+                        </figure>
+                        <figure>
+                            <img src="img/python.png" alt="Image Python">
+                            <figcaption>Python</figcaption>
+                        </figure>
+                    </div>
+                </div>
+
+                <div class="a-venir">
+                    <h3>À Venir</h3>
+                    <div>
+                        <figure>
+                            <img src="img/react.png" alt="Image ReactJS">
+                            <figcaption>ReactJS</figcaption>
+                        </figure>
+                        <figure>
+                            <img src="img/symfony.png" alt="Image Symfony">
+                            <figcaption>Symfony</figcaption>
+                        </figure>
+                        <figure>
+                            <img src="img/node.png" alt="Image NodeJS">
+                            <figcaption>NodeJS</figcaption>
+                        </figure>
+                    </div>
+
+
+                </div>
+            </article>
+
+
+
+
+
+                <article class="experiences-droite">
+                    <!-- Compétence Frontend -->
+                    <div class="profil-droite">
+                        <figure>
+                            <img src="img/youtube.png" alt="Image Youtube">
+                        </figure>
+                        <div>
+                            <h3>Création de contenus (Thumbnails / Vidéo)</h3>
+                            <span>2020 - 2025</span>
+                            <ul>
+                                <li>Création de contenus à la demande</li>
+                                <li>Prise de commande</li>
+                                <li>Application de cahier des charges</li>
+                            </ul>  
+                        </div>
+                    </div>
+
+                    <!-- Compétence Backend -->
+                    <div class="profil-droite">
+                        <figure>
+                            <img src="img/wordpress.png" alt="Image WordPress">
+                        </figure>
+                        <div>
+                            <h3>Création de Website (WordPress)</h3>
+                            <span>2022 - 2025</span>
+                            <ul>
+                                <li>Mise en place et configuration WordPress</li>
+                                <li>Ajout et configuration de module SEO (Yoast SEO)</li>
+                                <li>Hébergement OVH / Hostiger</li>
+                            </ul>  
+                        </div>
+                    </div>
+
+                    <!-- Outils utilisés -->
+                    <div class="profil-droite">
+                        <figure>
+                            <img src="img/laplateforme.png" alt="Image LaPlateforme_">
+                        </figure>
+                        <div>
+                            <h3>Bachelor IT - La Plateforme</h3>
+                            <span>2024 - 2027</span>
+                            <p>Pédagogie par projet basée sur la résolution de problématiques concrètes en autonomie Formation de 3 ans</p>
+                        </div>
+                    </div>
+                </article>
+
+            </article>
+
+
+
+        </section>
 
         
 
