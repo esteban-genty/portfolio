@@ -1,0 +1,17 @@
+footer{
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--main-font);
+    color: var(--black-color);
+}
+
+hr{
+    margin-top: 50px;
+    width: 80%;
+    margin: 0 auto;
+    border: none;
+    height: 1.15px;
+    background-color: var(--black-color);
+}

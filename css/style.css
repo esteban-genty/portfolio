@@ -197,8 +197,8 @@ a{
 }
 
 /*Section Expériences*/
-#titre{
-    padding-top: 100px;
+#expe, #proj{
+    padding-top: 50px;
     font-family: var(--main-font);
     text-align: center;
     width: 100%;
@@ -333,4 +333,136 @@ figcaption{
 
 .profil-droite h3{
     color: rgb(252, 215, 171);
+}
+
+/*Section Porjets*/
+
+.projets{
+    margin-top: 70px;
+    margin-bottom: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.projet{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 100px;
+}
+
+.projet-img{
+    height: 480px;
+    width: 18.5%;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: var(--black-color);
+
+}
+
+.projet p{
+    padding-left: 10px;
+    text-align: start;
+    width: 85%;
+    color: var(--bg-body);
+    font-family: var(--main-font);
+}
+
+.projets img{
+    width: 350px;
+    height: auto;
+    border-radius: 30px;
+}
+
+.projet figcaption{
+    width: 100%;
+    font-family: var(--main-font);
+    margin-top: 5px;
+    font-size: 1.1rem;
+    text-align: start;
+    padding-left: 10px;
+    font-weight: bold;
+    color: var(--bg-body);
+}
+
+.projet .languages{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+    padding-left: 10px;
+}
+
+.languages span{
+    font-family: var(--main-font);
+    font-size: 0.85rem;
+    padding: 2px 5px 2px 5px;
+    background-color: rgb(252, 215, 171);
+    border-radius: 5px;
+}
+
+.projet .buttons{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    gap: 5px;
+}
+
+.projet #demo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 5px;
+    width: 250px;
+    height: 50px;
+    border: none;
+    background-color: rgb(252, 215, 171);
+    color: var(--black-color);
+    font-size: 1rem;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+#demo svg {
+    width: 20px;
+    height: 20px;
+    fill: var(--black-color);
+}
+
+.projet #github{
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 98px;
+    height: 50px;
+    border: none;
+    background-color: #534e42;
+    color: var(--black-color);
+    font-size: 1rem;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.projet #demo:hover{
+    background-color: rgb(253, 225, 191);
+}
+
+.projet #github:hover{
+    background-color: #726d60;
 }
