@@ -81,6 +81,56 @@
         }
         
     }
+
+    @media screen and (max-width: 450px){
+
+        .accueil{
+            justify-content: center;
+            height: 62vh;
+        }
+
+        .accueil h4{
+            text-align: center;
+        }
+
+        .intro{
+            gap: -50px;
+        }
+
+        .portfolio-photos{
+            margin-top: 5px;
+        }
+
+        .intro img{
+            width: 390px;
+            height: auto;
+        }
+
+        .projets{
+            margin-bottom: 40px;
+        }
+
+        .profil img{
+            width: 55px;
+            height: auto;
+            margin: 0;
+        }
+
+        .projet-img{
+            width: 90%;
+            height: 500px;
+        }
+
+        .projet-img img{
+            width: 100%;
+            height: auto;
+        }
+
+        footer{
+            height: 130px;
+        }
+
+    }
     
 
 }

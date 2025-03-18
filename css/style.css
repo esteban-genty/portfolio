@@ -278,6 +278,7 @@ figcaption{
     height: 110px;
     border: 2px solid var(--black-color);
     border-radius: 100px;
+    transition: 0.3s ease;
 }
 
 .a-venir{
@@ -292,8 +293,12 @@ figcaption{
 .a-venir div{
     display: flex;
     flex-direction: row;
+    gap: 10px;
 }
 
+.actuel img:hover, .a-venir img:hover{
+    transform: scale(1.03);
+}
 
 .profil-droite{
     padding: 10px;
@@ -365,7 +370,11 @@ figcaption{
     border-radius: 20px;
     padding: 10px;
     background-color: var(--black-color);
+}
 
+.projet-img img{
+    width: 100%;
+    transition: 0.3s ease;
 }
 
 .projet p{
@@ -414,9 +423,11 @@ figcaption{
 .projet .buttons{
     width: 100%;
     display: flex;
+    justify-content: start;
+    align-items: center;
     flex-direction: row;
     height: 50px;
-    gap: 5px;
+    gap: 53%;
 }
 
 .projet #demo{
@@ -425,7 +436,7 @@ figcaption{
     justify-content: center;
     text-align: center;
     gap: 5px;
-    width: 250px;
+    width: 350%;
     height: 50px;
     border: none;
     background-color: rgb(252, 215, 171);
@@ -448,7 +459,7 @@ figcaption{
     align-items: center;
     justify-content: center;
     text-align: center;
-    width: 98px;
+    width: 450%;
     height: 50px;
     border: none;
     background-color: #534e42;
@@ -465,6 +476,10 @@ figcaption{
 
 .projet #github:hover{
     background-color: #726d60;
+}
+
+.projet-img img:hover{
+    transform: scale(1.02);
 }
 
 /*Section Contact*/
