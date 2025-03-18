@@ -1,0 +1,64 @@
+@media screen and (max-width: 1540px) {
+
+    .projet-img{
+        width: 23%;
+    }
+}
+
+@media screen and (max-width: 980px){
+
+    header{
+        height: 80px;
+    }
+
+    .nav-right{
+        display: none;
+    }
+
+    .nav-left{
+        text-align: center;
+        width: 100%;
+    }
+
+    .accueil figure{
+        display: none;
+    }
+
+    .presentation{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .experiences-gauche{
+        width: 100%;
+        justify-content: center;
+        margin-bottom: 40px;
+    }
+
+    .experiences-droite{
+        width: 80%;
+    }
+
+    .experiences{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .projet{
+        flex-direction: column;
+    }
+
+    .projet-img{
+        width: 50%;
+        height: 570px;
+    }
+
+    .projet-img img{
+        width: 490px;
+        height: auto;
+    }
+
+}
