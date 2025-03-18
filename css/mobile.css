@@ -93,8 +93,16 @@
             text-align: center;
         }
 
+        .accueil p{
+            text-align: center;
+        }
+
         .intro{
             gap: -50px;
+        }
+
+        .profil{
+            width: 90%;
         }
 
         .portfolio-photos{
